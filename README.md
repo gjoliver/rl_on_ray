@@ -7,4 +7,4 @@ Things demonstrated here include:
 * Training loop and weight syncing.
 * Basic simulator fault tolerance.
 
-Plug in your favorite NN training framework to get a simple on-policy RL stack going.
+Plug in your favorite NN training logic to get a simple on-policy RL stack going.
