@@ -48,6 +48,7 @@ def try_recover_simulators(simulators, trainable):
         del bad_simulator
 
 
+@ray.remote
 def run():
     ray.init()
 
@@ -88,4 +89,4 @@ def run():
 
 
 if __name__ == "__main__":
-    run()
+    run.remote()
